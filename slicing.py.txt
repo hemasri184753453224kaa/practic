@@ -1,0 +1,15 @@
+# String slicing example
+text = "AI ML TEHTA"
+
+# Slicing examples
+first_three = text[:3]        # Slices from start to index 2 (3rd character)
+middle_part = text[3:7]       # Slices from index 3 to 6
+last_three = text[-3:]        # Slices the last three characters
+skip_one = text[::2]          # Slices with a step of 2 (every second character)
+
+# Displaying results
+print("Original String:", text)
+print("First three characters:", first_three)
+print("Middle part:", middle_part)
+print("Last three characters:", last_three)
+print("Every second character:", skip_one)
